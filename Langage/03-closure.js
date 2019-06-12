@@ -1,9 +1,9 @@
 function externe(msg) {
-    // portée de closure (msg)
-    function interne() {
-        console.log(msg);
-    }
-    interne();
+  // portée de closure (msg)
+  function interne() {
+    console.log(msg);
+  }
+  interne();
 }
 
 externe('Hello');
@@ -15,4 +15,4 @@ externe('Hello');
 // |interne
 // |externe
 // +--------------------------------> temps
-// 
+//

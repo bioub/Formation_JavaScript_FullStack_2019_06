@@ -20,11 +20,14 @@ names.filter((elt) => elt.length === 4)
      .map((elt) => elt.toUpperCase())
      .forEach(hello);
 
+console.log('Fin');
+
+
 // pile d'appel
 // ^
 // |
 // |                         log     log
-// |=> - => - =>   => - =>   hello - hello  
-// |filter       - map     - forEach
-// +----------------------------------------> temps
-// 
+// |=> - => - =>   => - =>   hello - hello
+// |filter       - map     - forEach       - log
+// +---------------------------------------------> temps
+//
