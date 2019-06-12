@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "Langage"
+		},
+		{
+			"path": "ModuleCommonJS"
+		},
+		{
+			"path": "Async"
+		},
+		{
+			"path": "Exercice-Build"
+		}
+	],
+	"settings": {}
+}
