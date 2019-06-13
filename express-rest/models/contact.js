@@ -1,3 +1,4 @@
+/*
 const contacts = [{
   prenom: 'Romain',
   id: 123,
@@ -72,3 +73,20 @@ exports.findById = findById;
 exports.create = create;
 exports.findByIdAndDelete = findByIdAndDelete;
 exports.findByIdAndUpdate = findByIdAndUpdate;
+*/
+const mongoose = require('mongoose');
+
+const contactSchema = new mongoose.Schema({
+  prenom: {
+    type: String,
+    required: true,
+  },
+});
+
+// contactSchema.pre('save', () => {
+
+// });
+
+const Contact = mongoose.model('Contact', contactSchema);
+
+module.exports = Contact;
