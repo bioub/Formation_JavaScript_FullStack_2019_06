@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "express-rest"
+		},
+		{
+			"path": "hello-angular"
 		}
 	],
 	"settings": {}

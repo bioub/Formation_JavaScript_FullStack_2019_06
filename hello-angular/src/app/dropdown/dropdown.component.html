@@ -1,0 +1,8 @@
+<div class="selected">{{selected}}</div>
+<div class="items">
+  <div class="item"
+       *ngFor="let item of items"
+       [ngClass]="{active: item === selected}"
+       (click)="selectItem(item)"
+       >{{item}}</div>
+</div>

@@ -79,7 +79,7 @@ const mongoose = require('mongoose');
 const contactSchema = new mongoose.Schema({
   prenom: {
     type: String,
-    required: true,
+    required: [true, 'Le prénom est obligatoire'],
   },
 });
 

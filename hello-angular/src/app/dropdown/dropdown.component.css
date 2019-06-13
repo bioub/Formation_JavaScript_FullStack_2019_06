@@ -1,0 +1,17 @@
+.selected {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.items {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.item:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.active {
+    font-weight: bold;
+}
