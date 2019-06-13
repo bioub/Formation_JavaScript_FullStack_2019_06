@@ -6,7 +6,7 @@ const tmpPath = path.resolve(__dirname, '.tmp');
 
 // Sync
 try {
-  const buffer = fs.readFileSync(editorConfigPath);
+  const buffer = fs.readFileSync(editorConfigPath); // BLOQUANTE
   fs.writeFileSync(tmpPath, buffer);
   console.log('copy done');
 } catch (err) {

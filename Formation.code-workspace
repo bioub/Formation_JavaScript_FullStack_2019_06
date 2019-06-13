@@ -14,6 +14,9 @@
 		},
 		{
 			"path": "Web"
+		},
+		{
+			"path": "express-rest"
 		}
 	],
 	"settings": {}
