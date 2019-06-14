@@ -20,6 +20,12 @@
 		},
 		{
 			"path": "hello-angular"
+		},
+		{
+			"path": "Exercice-Build-Webpack"
+		},
+		{
+			"path": "address-book"
 		}
 	],
 	"settings": {}

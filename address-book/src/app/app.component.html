@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <a class="navbar-brand" [routerLink]="['']">AddressBook</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['contacts']" routerLinkActive="active">Contacts</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid mt-3">
+  <router-outlet></router-outlet>
+</div>

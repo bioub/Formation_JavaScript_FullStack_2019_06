@@ -7,5 +7,7 @@
 <p>
   hello <span [innerText]="'hello'"></span>!
 </p>
-<input [value]="name">
+
 <a [href]="name">Text</a> -->
+<input [value]="name" (input)="name = $event.target.value">
+<input [value]="name" [disabled]="!name">

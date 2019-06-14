@@ -7,7 +7,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class DropdownComponent implements OnInit {
 
-  @Input() items = [];
+  @Input() items: string[] = [];
   @Input() selected = '';
   @Output() selectedChange = new EventEmitter<string>();
 
